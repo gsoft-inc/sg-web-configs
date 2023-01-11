@@ -32,10 +32,10 @@
         "clean": "rimraf dist node_modules"
     },
     "dependencies": {
-        "@sharegate/typescript-config": "*",
         "stylelint-config-recommended": "^9"
     },
     "devDependencies": {
+        "@sharegate/typescript-config": "*",
         "stylelint": ">=14.10.0"
     },
     "peerDependencies": {
