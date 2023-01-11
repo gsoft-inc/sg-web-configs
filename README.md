@@ -2,6 +2,8 @@
 Common configurations for building web apps at ShareGate
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE.md) 
+[![CI](https://github.com/gsoft-inc/sg-web-configs/actions/workflows/ci.yml/badge.svg)](https://github.com/gsoft-inc/sg-web-configs/actions/workflows/ci.yml)
+
 ## Usage 
   
 This repo is managed as a monorepo that is composed of many npm packages, where each package has its own README and documentation describing usage.
