@@ -1,6 +1,7 @@
 # `@sharegate/postcss-plugin`
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../../LICENSE.md) [![npm version](https://badge.fury.io/js/@sharegate%2Fpostcss-plugin.svg)](https://badge.fury.io/js/@sharegate%2Fpostcss-plugin.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../../LICENSE.md)
+[![npm version](https://img.shields.io/npm/v/@sharegate/postcss-plugin)](https://www.npmjs.com/package/@sharegate/postcss-plugin)
 
 All of ShareGate’s preferred PostCSS plugins wrapped up in a single, easy-to-use plugin.
 

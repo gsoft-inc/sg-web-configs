@@ -1,6 +1,7 @@
 # `@sharegate/browserslist-config`
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../../LICENSE.md) [![npm version](https://badge.fury.io/js/@sharegate%2Fbrowserslist-config.svg)](https://badge.fury.io/js/@sharegate%2Fbrowserslist-config.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../../LICENSE.md) 
+[![npm version](https://img.shields.io/npm/v/@sharegate/browserslist-config)](https://www.npmjs.com/package/@sharegate/browserslist-config)
 
 
 Shareable [browserslist](https://github.com/browserslist/browserslist) configuration for ShareGate.
