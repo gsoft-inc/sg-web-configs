@@ -13,10 +13,10 @@ This repo is managed as a monorepo that is composed of many npm packages, where 
 | Name | NPM |
 | --- | --- | 
 | [browserslist-config](packages/browserslist-config/README.md) | [![npm version](https://img.shields.io/npm/v/@sharegate/browserslist-config)](https://www.npmjs.com/package/@sharegate/browserslist-config) | 
-| [eslint-config](packages/eslint-config/README.md)| [![npm version](https://badge.fury.io/js/%40sharegate%2Feslint-config.svg)](https://badge.fury.io/js/%40sharegate%2Feslint-config) |
-| [postcss-plugin](packages/postcss-plugin/README.md) | [![npm version](https://badge.fury.io/js/%40sharegate%2Fpostcss-plugin.svg)](https://badge.fury.io/js/%40sharegate%2Fpostcss-plugin) |
-| [stylelint-plugin](packages/stylelint-plugin/README.md) | [![npm version](https://badge.fury.io/js/%40sharegate%2Fstylelint-plugin.svg)](https://badge.fury.io/js/%40sharegate%2Fstylelint-plugin) |
-| [typescript-configs](packages/typescript-config/README.md) | [![npm version](https://badge.fury.io/js/%40sharegate%2Ftypescript-config.svg)](https://badge.fury.io/js/%40sharegate%2Ftypescript-config) |
+| [eslint-plugin](packages/eslint-plugin/README.md) | [![npm version](https://img.shields.io/npm/v/@sharegate/eslint-plugin)](https://www.npmjs.com/package/@sharegate/eslint-plugin) | 
+| [postcss-plugin](packages/postcss-plugin/README.md) | [![npm version](https://img.shields.io/npm/v/@sharegate/postcss-plugin)](https://www.npmjs.com/package/@sharegate/postcss-plugin) | 
+| [stylelint-plugin](packages/stylelint-plugin/README.md) | [![npm version](https://img.shields.io/npm/v/@sharegate/stylelint-plugin)](https://www.npmjs.com/package/@sharegate/stylelint-plugin) | 
+| [typescript-config](packages/typescript-config/README.md) | [![npm version](https://img.shields.io/npm/v/@sharegate/typescript-config)](https://www.npmjs.com/package/@sharegate/typescript-config) | 
 
 ## Contributing
 
