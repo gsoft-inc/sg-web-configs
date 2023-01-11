@@ -1,6 +1,7 @@
 # `@sharegate/typescript-config`
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../../LICENSE.md) [![npm version](https://badge.fury.io/js/@sharegate%typescript-config.svg)](https://badge.fury.io/js/@sharegate%typescript-config.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../../LICENSE.md)
+[![npm version](https://img.shields.io/npm/v/@sharegate/typescript-config)](https://www.npmjs.com/package/@sharegate/typescript-config)
 
 This packages provides a base TypeScript configuration depending on the JavaScript runtime environment which you intend to run your code in. 
 These are tsconfig.json files which your project extends from which simplifies your tsconfig.json by handling the runtime support.

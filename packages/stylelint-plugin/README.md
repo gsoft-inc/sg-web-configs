@@ -1,6 +1,7 @@
 # `@sharegate/stylelint-plugin`
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../../LICENSE.md) [![npm version](https://badge.fury.io/js/@sharegate%2Fstylelint-plugin.svg)](https://badge.fury.io/js/@sharegate%2Fstylelint-plugin.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../../LICENSE.md)
+[![npm version](https://img.shields.io/npm/v/@sharegate/stylelint-plugin)](https://www.npmjs.com/package/@sharegate/stylelint-plugin) 
 
 Shareable [browserslist](https://github.com/browserslist/browserslist) configuration for ShareGate.
 
