@@ -21,6 +21,7 @@
         "changeset": "changeset",
         "clean": "lerna run clean && rimraf node_modules",
         "lint": "npm run build:eslint && eslint .",
+        "lint-ci": "eslint .",
         "lint:fix": "npm run build:eslint && eslint . --fix",
         "release": "npm run build && changeset publish",
         "test": "lerna run test"
