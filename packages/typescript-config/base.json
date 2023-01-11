@@ -1,0 +1,23 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compileOnSave": false,
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "esModuleInterop": true, 
+        "skipLibCheck": true,
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": false,
+        "strict": true,
+        "allowUnusedLabels": false,
+        "allowUnreachableCode": false,
+        "noUnusedLocals": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true
+    }
+}
+
+
+    
+    

@@ -1,0 +1,17 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": false
+    },
+    "editor.formatOnSave": true,
+    "javascript.format.enable": false,
+    "javascript.validate.enable": true,
+    "json.format.enable": false,
+    "eslint.alwaysShowStatus": true,
+    "search.exclude": {
+        "**/node_modules*": true
+    },
+    "css.validate": false,
+}

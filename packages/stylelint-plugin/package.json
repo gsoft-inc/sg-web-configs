@@ -1,0 +1,47 @@
+{
+    "$schema": "https://json.schemastore.org/package",
+    "name": "@sharegate/stylelint-plugin",
+    "version": "0.0.0",
+    "description": "Sharegate recommended stylelint config.",
+    "keywords": [
+        "sharegate",
+        "stylelint",
+        "stylelint-plugin",
+        "config",
+        "css"
+    ],
+    "license": "Apache-2.0",
+    "author": "Groupe ShareGate inc.",
+    "contributors": [
+        "Alexandre Asselin <alexandre.asselin@gsoft.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gsoft-inc/sg-web-configs.git",
+        "directory": "packages/stylelint-plugin"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "CHANGELOG.md",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf dist node_modules"
+    },
+    "dependencies": {
+        "@sharegate/typescript-config": "*",
+        "stylelint-config-recommended": "^9"
+    },
+    "devDependencies": {
+        "stylelint": ">=14.10.0"
+    },
+    "peerDependencies": {
+        "stylelint": ">=14.10.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

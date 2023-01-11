@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "@sharegate/typescript-config/library.json",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "outDir": "dist"
+    },
+    "include": ["lib"],
+    "exclude": ["dist"]
+}

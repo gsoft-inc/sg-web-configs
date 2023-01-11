@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/package",
+    "name": "@sharegate/typescript-config",
+    "version": "0.0.0",
+    "description": "Sharegate recommended typescript config.",
+    "author": "Groupe ShareGate inc.",
+    "contributors": [
+        "Alexandre Asselin <alexandre.asselin@gsoft.com>"
+    ],
+    "keywords": [
+        "sharegate",
+        "typescript",
+        "tsconfig",
+        "config"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gsoft-inc/sg-web-configs.git",
+        "directory": "packages/typescript-config"
+    },
+    "license": "Apache-2.0",
+    "publishConfig": {
+        "access": "public"
+    }
+}

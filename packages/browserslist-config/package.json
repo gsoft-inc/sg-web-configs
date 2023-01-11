@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json.schemastore.org/package",
+    "name": "@sharegate/browserslist-config",
+    "version": "3.0.0",
+    "description": "Sharegate recommended Browserslist config.",
+    "author": "Groupe ShareGate inc.",
+    "contributors": [
+        "Alexandre Asselin <alexandre.asselin@gsoft.com>"
+    ],
+    "keywords": [
+        "sharegate",
+        "browserslist",
+        "config"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gsoft-inc/sg-web-configs.git",
+        "directory": "packages/browserslist-config"
+    },
+    "license": "Apache-2.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "CHANGELOG.md",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf dist node_modules"
+    },
+    "devDependencies": {
+        "@sharegate/typescript-config": "*"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

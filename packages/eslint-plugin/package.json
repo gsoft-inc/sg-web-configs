@@ -1,0 +1,78 @@
+{
+    "$schema": "https://json.schemastore.org/package",
+    "name": "@sharegate/eslint-plugin",
+    "version": "0.0.0",
+    "description": "Sharegates ESLint rules and configs.",
+    "keywords": [
+        "sharegate",
+        "eslint",
+        "eslintconfig",
+        "eslintplugin",
+        "eslint-config",
+        "eslint-plugin"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gsoft-inc/sg-web-configs.git",
+        "directory": "packages/postcss-plugin"
+    },
+    "author": "Groupe ShareGate inc.",
+    "contributors": [
+        "Alexandre Asselin <alexandre.asselin@gsoft.com>"
+    ],
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "docs",
+        "dist",
+        "CHANGELOG.md",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf dist node_modules",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@next/eslint-plugin-next": "^13",
+        "@typescript-eslint/eslint-plugin": "^5",
+        "eslint-plugin-import": "^2",
+        "eslint-plugin-jest": "^27",
+        "eslint-plugin-jsx-a11y": "^6",
+        "eslint-plugin-lodash": "^7",
+        "eslint-plugin-mdx": "^2",
+        "eslint-plugin-react": "^7",
+        "eslint-plugin-react-hooks": "^4",
+        "eslint-plugin-react-query": "^1",
+        "eslint-plugin-sort-imports-es6-autofix": "^0",
+        "eslint-plugin-storybook": "^0",
+        "eslint-plugin-testing-library": "^5"
+    },
+    "devDependencies": {
+        "@sharegate/typescript-config": "*",
+        "@types/eslint": "8.4.10",
+        "@types/estree": "1.0.0",
+        "@types/requireindex": "1.2.0",
+        "@typescript-eslint/parser": "5.48.0",
+        "eslint": "8.31.0",
+        "fs": "0.0.2",
+        "path": "0.12.7",
+        "typescript": "4.9.4"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/parser": "^5",
+        "eslint": "^7 || ^8",
+        "typescript": "^4"
+    },
+    "peerDependenciesMeta": {
+        "@typescript-eslint/parser": {
+            "optional": true
+        },
+        "typescript": {
+            "optional": true
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/eslintrc",
+    "root": true,
+    "extends": [
+        "plugin:@sharegate/recommended",
+        "plugin:@sharegate/typescript",
+        "plugin:@sharegate/jest"
+    ]
+}

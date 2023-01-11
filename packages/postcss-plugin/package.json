@@ -1,0 +1,49 @@
+{
+    "$schema": "https://json.schemastore.org/package",
+    "name": "@sharegate/postcss-plugin",
+    "version": "0.0.0",
+    "description": "Sharegate recommended typescript config.",
+    "author": "Groupe ShareGate inc.",
+    "contributors": [
+        "Alexandre Asselin <alexandre.asselin@gsoft.com>"
+    ],
+    "keywords": [
+        "sharegate",
+        "postcss",
+        "postcss-plugin",
+        "css"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gsoft-inc/sg-web-configs.git",
+        "directory": "packages/postcss-plugin"
+    },
+    "license": "Apache-2.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "CHANGELOG.md",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf dist node_modules"
+    },
+    "dependencies": {
+        "postcss-flexbugs-fixes": "5.0.2",
+        "postcss-preset-env": "7.8.3",
+        "postcss-pxtorem": "6.0.0"
+    },
+    "devDependencies": {
+        "@sharegate/typescript-config": "*",
+        "@types/postcss-flexbugs-fixes": "4.2.1",
+        "@types/postcss-preset-env": "7.7.0"
+    },
+    "peerDependencies": {
+        "postcss": ">=8.4.6"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
