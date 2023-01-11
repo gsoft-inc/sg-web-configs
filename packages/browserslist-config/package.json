@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/package",
     "name": "@sharegate/browserslist-config",
-    "version": "3.0.0",
+    "version": "0.0.0",
     "description": "Sharegate recommended Browserslist config.",
     "author": "Groupe ShareGate inc.",
     "contributors": [
