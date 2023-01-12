@@ -1,5 +1,15 @@
 # @sharegate/eslint-plugin
 
+## 2.0.0
+
+### Major Changes
+
+- a1b9a73: _Breaking_
+
+  - Renamed recommended configuration to core
+  - Moved browser env to the react configuration
+  - Updated the documentation to reflect the changes
+
 ## 1.0.1
 
 ### Patch Changes
