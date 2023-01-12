@@ -7,6 +7,9 @@ const config: Linter.Config = {
             version: "detect"
         }
     },
+    env: {
+        browser: true
+    },
     overrides: [
         {
             files: [...sourceFiles, ...jsxFiles],

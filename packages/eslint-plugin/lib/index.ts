@@ -12,7 +12,7 @@ const plugin: ESLint.Plugin = {
         mdx: require("./config/mdx"),
         nextjs: require("./config/nextjs"),
         react: require("./config/react"),
-        recommended: require("./config/recommended"),
+        core: require("./config/core"),
         "sort-imports": require("./config/sort-imports"),
         "storybook-csf": require("./config/storybook-csf"),
         storybook: require("./config/storybook"),

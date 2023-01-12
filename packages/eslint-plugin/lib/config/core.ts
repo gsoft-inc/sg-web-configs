@@ -7,7 +7,6 @@ const config: Linter.Config = {
         sourceType: "module"
     },
     env: {
-        browser: true,
         es6: true
     },
     rules: {
