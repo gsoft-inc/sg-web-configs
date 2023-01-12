@@ -8,7 +8,7 @@ const config: Linter.Config = {
         }
     },
     env: {
-        browser: true,
+        browser: true
     },
     overrides: [
         {
