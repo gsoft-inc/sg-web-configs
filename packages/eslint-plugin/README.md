@@ -27,7 +27,7 @@ ShareGate’s ESLint configs come bundled in this package. In order to use them,
   "plugin:@sharegate/core", /* For all JavaScript projects */ 
   "plugin:@sharegate/typescript", /* For all TypeScript projects */ 
   "plugin:@sharegate/react", /* For all React projects */ 
-  "plugin:@sharegate/nextjs", /* For all NextJS projects */ 
+  "plugin:@sharegate/nextjs", /* For all NextJS projects, includes plugin:@sharegate/react */ 
   "plugin:@sharegate/sort-imports", /* if you want to sort your import statements */ 
   "plugin:@sharegate/mdx", /* if you have *.mdx files */
   "plugin:@sharegate/lodash", /* if you use Lodash in your project */
@@ -47,6 +47,25 @@ ShareGate’s ESLint configs come bundled in this package. In order to use them,
     "@sharegate/prefer-cx": "warn"
 }
  ```
+ 
+ If your project is *NOT* using TypeScript, you'll need to install `@babel/eslint-parser` and update your `.eslintrc.js` configuration file:
+```bash
+ npm i -D @babel/eslint-parser
+```
+
+`.eslintrc.js` 
+```javascript
+module.exports = {
+    ...
+    parser: "@babel/eslint-parser" /* (If your project is NOT in TypeScript) */
+    extends: [
+        "plugin:@sharegate/recommended",
+        "plugin:@sharegate/nextjs"
+        ...
+    ],
+    ...
+};
+```
 
 ## Provided Configurations
 
