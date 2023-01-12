@@ -21,14 +21,20 @@ yarn add --dev @sharegate/eslint-plugin
 
 ## Usage
 
-ShareGate’s ESLint configs come bundled in this package. In order to use them, you simply extend the relevant configuration in your project’s .eslintrc. For example, if you are developing an application using TypeScript and React, using third party like lodash  :
+ShareGate’s ESLint configs come bundled in this package. In order to use them, you simply extend the relevant configuration in your project’s .eslintrc  :
 ```json  
 "extends": [ 
-  "plugin:@sharegate/recommended",
-  "plugin:@sharegate/sort-imports",
-  "plugin:@sharegate/typescript",
-  "plugin:@sharegate/react",
-  "plugin:@sharegate/lodash",
+  "plugin:@sharegate/core", /* For all JavaScript projects */ 
+  "plugin:@sharegate/typescript", /* For all TypeScript projects */ 
+  "plugin:@sharegate/react", /* For all React projects */ 
+  "plugin:@sharegate/nextjs", /* For all NextJS projects */ 
+  "plugin:@sharegate/sort-imports", /* if you want to sort your import statements */ 
+  "plugin:@sharegate/mdx", /* if you have *.mdx files */
+  "plugin:@sharegate/lodash", /* if you use Lodash in your project */
+  "plugin:@sharegate/jest", /* if you use Jest in your project */
+  "plugin:@sharegate/react-testing-library", /* if you use React Testing Library in your project */
+  "plugin:@sharegate/storybook",  /* if you use Storybook in your project */
+  "plugin:@sharegate/storybook-csf",/* if you use Storybook with CSF Stories in your project */
 ]
  ```
  
@@ -47,7 +53,7 @@ ShareGate’s ESLint configs come bundled in this package. In order to use them,
 ### Language/Framework-specific configs.
 | Language/Framework | Config | Description |
 | --- | --- | --- |
-| JavaScript - [recommended](lib/config/recommended.ts) | "plugin:@sharegate/recommended" | Use this for all JavaScript/TypeScript projects. |
+| JavaScript - [core](lib/config/core.ts) | "plugin:@sharegate/core" | Use this for all JavaScript/TypeScript projects. |
 | JavaScript - [sort-imports](lib/config/sort-imports.ts) | "plugin:@sharegate/sort-imports" | Use this for JavaScript/TypeScript projects. |
 | [typescript](lib/config/typescript.ts) | "plugin:@sharegate/typescript" | Use this for TypeScript projects. |
 | [react](lib/config/react.ts) | "plugin:@sharegate/react" | Use this for React projects. |
@@ -61,7 +67,7 @@ ShareGate’s ESLint configs come bundled in this package. In order to use them,
 | [jest](lib/config/jest.ts) | "plugin:@sharegate/jest" | Use this for projects using [jest](https://jestjs.io/).|
 | [testing-library](lib/config/testing-library.ts) | "plugin:@sharegate/testing-library" | Use this for projects using [testing-library](https://testing-library.com/).|
 | [storybook](lib/config/storybook.ts) | "plugin:@sharegate/storybook" | Use this for projects using [storybook](https://storybook.js.org/).|
-| [storybook-csf](lib/config/storybook-csf.ts) | "plugin:@sharegate/storybook-csf" | Use this for projects using [storybook](https://storybook.js.org/) but with the CSF format.|
+| [storybook-csf](lib/config/storybook-csf.ts) | "plugin:@sharegate/storybook-csf" | Use this for projects using [storybook](https://storybook.js.org/) but with the CSF format. Must be used with the other storybook config |
 
 ## Plugin-Provided Rules 
 
