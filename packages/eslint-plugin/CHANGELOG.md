@@ -1,5 +1,11 @@
 # @sharegate/eslint-plugin
 
+## 2.1.0
+
+### Minor Changes
+
+- 9113160: NextJs eslint config now extends the react configuration
+
 ## 2.0.0
 
 ### Major Changes
