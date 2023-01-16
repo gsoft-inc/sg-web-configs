@@ -32,7 +32,7 @@ ShareGate’s ESLint configs come bundled in this package. In order to use them,
   "plugin:@sharegate/mdx", /* if you have *.mdx files */
   "plugin:@sharegate/lodash", /* if you use Lodash in your project */
   "plugin:@sharegate/jest", /* if you use Jest in your project */
-  "plugin:@sharegate/react-testing-library", /* if you use React Testing Library in your project */
+  "plugin:@sharegate/testing-library", /* if you use React Testing Library in your project */
   "plugin:@sharegate/storybook",  /* if you use Storybook in your project */
   "plugin:@sharegate/storybook-csf",/* if you use Storybook with CSF Stories in your project */
 ]
