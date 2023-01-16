@@ -25,7 +25,7 @@ export const reactTestFiles = [
 ];
 
 export const storybookFiles = [
-    "*.(stories|storybook|story|chroma).[jt]s?(x)"
+    "*.@(stories|storybook|story|chroma).[jt]s?(x)"
 ];
 
 export const mainStorybookFiles = [
