@@ -1,5 +1,11 @@
 # @sharegate/eslint-plugin
 
+## 3.0.0
+
+### Major Changes
+
+- c9774f2: Fixed glob pattern for storybook files
+
 ## 2.1.0
 
 ### Minor Changes
