@@ -59,7 +59,7 @@ module.exports = {
     ...
     parser: "@babel/eslint-parser" /* (If your project is NOT in TypeScript) */
     extends: [
-        "plugin:@sharegate/recommended",
+        "plugin:@sharegate/core",
         "plugin:@sharegate/nextjs"
         ...
     ],
