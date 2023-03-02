@@ -28,6 +28,7 @@ To start, create a tsconfig.json in the root of your project.
 
 ```json
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@sharegate/typescript-config/cra.json",
   "compilerOptions": {
     "baseUrl": ".",
@@ -41,6 +42,7 @@ To start, create a tsconfig.json in the root of your project.
 
 ```json
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@sharegate/typescript-config/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
@@ -54,6 +56,7 @@ To start, create a tsconfig.json in the root of your project.
 
 ```json
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@sharegate/typescript-config/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
@@ -67,6 +70,7 @@ To start, create a tsconfig.json in the root of your project.
 
 ```json
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@sharegate/typescript-config/react.json",
   "compilerOptions": {
     "baseUrl": ".",
@@ -78,6 +82,7 @@ To start, create a tsconfig.json in the root of your project.
 
 ```json
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@sharegate/typescript-config/library.json",
   "compilerOptions": {
   }
@@ -88,6 +93,7 @@ To start, create a tsconfig.json in the root of your project.
 
 ```json
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@sharegate/typescript-config/base.json",
   "compilerOptions": {
   }
