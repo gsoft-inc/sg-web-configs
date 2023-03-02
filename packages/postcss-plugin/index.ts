@@ -2,6 +2,7 @@ import type { PluginCreator } from "postcss";
 import postcssPresetEnv, { pluginOptions as postcssPresetEnvOptions } from "postcss-preset-env";
 import postcssFlexBugsFixes from "postcss-flexbugs-fixes";
 import postcssPxtorem from "postcss-pxtorem";
+import postcss from "postcss";
 
 const PRESET_ENV_OPTIONS: postcssPresetEnvOptions = {
     autoprefixer: {
@@ -48,11 +49,11 @@ const DEFAULT_OPTIONS = {
 const plugin: PluginCreator<typeof DEFAULT_OPTIONS> = ({ presetEnvOptions, pxtoremOptions } = DEFAULT_OPTIONS) => {
     return {
         postcssPlugin: "@sharegate/postcss-plugin",
-        plugins: [
+        ...postcss([
             postcssFlexBugsFixes(),
             postcssPresetEnv(presetEnvOptions),
             postcssPxtorem(pxtoremOptions)
-        ]
+        ])
     };
 };
 
