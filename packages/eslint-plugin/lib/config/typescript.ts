@@ -1,8 +1,12 @@
 import type { Linter } from "eslint";
-import { typescriptFiles } from "../utils/patterns";
+import { typescriptFiles, sourceFiles, jsxFiles } from "../utils/patterns";
 
 const config: Linter.Config = {
     overrides: [
+        {
+            files: [...sourceFiles, ...jsxFiles],
+            parser: "@typescript-eslint/parser"
+        },
         {
             files: typescriptFiles,
             parser: "@typescript-eslint/parser",

@@ -67,6 +67,63 @@ module.exports = {
 };
 ```
 
+## Recipes
+
+### Simple TypeScript Project
+
+```json
+{
+  "extends": [
+    "plugin:@sharegate/core",
+    "plugin:@sharegate/sort-imports",
+    "plugin:@sharegate/typescript"
+  ]
+}
+```
+
+### React + TypeScript App
+
+```json
+{
+  "extends": [
+    "plugin:@sharegate/core",
+    "plugin:@sharegate/sort-imports",
+    "plugin:@sharegate/react"
+    "plugin:@sharegate/typescript",
+  ]
+}
+```
+
+### NextJs App
+
+```json
+{
+  "extends": [
+    "plugin:@sharegate/core",
+    "plugin:@sharegate/sort-imports",
+    "plugin:@sharegate/typescript",
+    "plugin:@sharegate/nextjs"
+  ]
+}
+```
+
+### React + TypeScript App with Storybook and Jest/Testing-library
+
+```json
+{
+  "extends": [
+    "plugin:@sharegate/core",
+    "plugin:@sharegate/sort-imports",
+    "plugin:@sharegate/react"
+    "plugin:@sharegate/typescript",
+    "plugin:@sharegate/jest",
+    "plugin:@sharegate/testing-library",
+    "plugin:@sharegate/storybook",
+    "plugin:@sharegate/storybook-csf"
+  ]
+}
+```
+
 ## Provided Configurations
 
 ### Language/Framework-specific configs.
