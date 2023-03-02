@@ -2,7 +2,7 @@
     "$schema": "https://json.schemastore.org/package",
     "name": "@sharegate/postcss-plugin",
     "version": "1.0.1",
-    "description": "Sharegate recommended typescript config.",
+    "description": "Sharegate recommended PostCSS config.",
     "author": "Groupe ShareGate inc.",
     "contributors": [
         "Alexandre Asselin <alexandre.asselin@gsoft.com>"
