@@ -1,5 +1,11 @@
 # @sharegate/postcss-plugin
 
+## 2.0.1
+
+### Patch Changes
+
+- 035b3c3: Updated the package description
+
 ## 2.0.0
 
 ### Major Changes
