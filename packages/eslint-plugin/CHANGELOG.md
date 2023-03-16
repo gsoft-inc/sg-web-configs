@@ -1,5 +1,11 @@
 # @sharegate/eslint-plugin
 
+## 3.2.0
+
+### Minor Changes
+
+- 0eec41d: Eslint plugin now supports TypeScript version %
+
 ## 3.1.0
 
 ### Minor Changes

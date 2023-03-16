@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/package",
     "name": "@sharegate/eslint-plugin",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "description": "Sharegates ESLint rules and configs.",
     "keywords": [
         "sharegate",
