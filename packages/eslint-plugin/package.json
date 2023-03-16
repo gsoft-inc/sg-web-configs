@@ -62,7 +62,7 @@
     "peerDependencies": {
         "@typescript-eslint/parser": "^5",
         "eslint": "^7 || ^8",
-        "typescript": "^4"
+        "typescript": "^4 || ^5"
     },
     "peerDependenciesMeta": {
         "@typescript-eslint/parser": {
